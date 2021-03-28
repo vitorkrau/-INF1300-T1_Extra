@@ -10,7 +10,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   List<User> users = [
-    User(name: "Teste", birthDate: DateTime.now()),
+    User(name: "First User", birthDate: DateTime.now()),
   ];
   User newUser;
 
